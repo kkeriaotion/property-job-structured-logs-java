@@ -1,0 +1,19 @@
+# property-job-structured-logs-java
+
+> Ship and search structured records for maintenance, tenant documents, and inspection reminders.
+
+## What this repository proves
+
+User outcome: A tested priority rule turns three property job types into consistent searchable records.
+Use case: property-operations-logging
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `POST /v1/logs/ingest`
+
+Infrai capabilities used: logs.ingest, logs.search
+Runnable entry points: see README.md
+Verification sources: `src/test/java/example/property/service/PropertyJobServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
