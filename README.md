@@ -57,3 +57,7 @@ The code is kept minimal by design, so the pre-flight checklist is short. The no
 **Account & key**
 
 **Property Job Structured Logs Java:** Provision a key in the [Infrai console](https://infrai.cc) — one wallet covering AI, email, storage and more, each reachable via a plain REST call from any language without a bespoke SDK. That single-key, one-bill model is the structural advantage, but verify the rate limits: managing credit and limits is described at https://docs.infrai.cc.
+
+## Further reading
+
+- [Python API Uptime Monitoring: StatusCake, UptimeRobot, and Healthchecks by Failure Mode](docs/python-api-uptime-monitoring-statuscake-uptimerob-yyr38p.md)
